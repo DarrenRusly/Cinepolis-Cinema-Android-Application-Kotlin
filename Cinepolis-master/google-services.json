@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906224976521",
+    "project_id": "analog-campus-348103",
+    "storage_bucket": "analog-campus-348103.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906224976521:android:44dcd8b10b6ec1e7a83c58",
+        "android_client_info": {
+          "package_name": "com.uasseluler.cinepolis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906224976521-0p230i82daf4u64nunellhedihp0r9bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfMDIlDFWUy55W1VPEnPAbA3Ta_x2V3d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906224976521-0p230i82daf4u64nunellhedihp0r9bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

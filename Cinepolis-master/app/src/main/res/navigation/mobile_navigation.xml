@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.uasseluler.cinepolis.ui.HomeFragment"
+        android:label="@string/movie"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.uasseluler.cinepolis.ui.OrderListFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_order_list" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.uasseluler.cinepolis.ui.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_theaters"
+        android:name="com.uasseluler.cinepolis.ui.CinemaFragment"
+        android:label="@string/menu_theaters"
+        tools:layout="@layout/fragment_cinema" />
+
+    <fragment
+        android:id="@+id/nav_FAQ"
+        android:name="com.uasseluler.cinepolis.ui.FAQFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/nav_ToS"
+        android:name="com.uasseluler.cinepolis.ui.ToSFragment"
+        android:label="Term of Service"
+        tools:layout="@layout/fragment_tos" />
+
+</navigation>
